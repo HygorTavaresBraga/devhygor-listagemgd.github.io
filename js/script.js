@@ -1,0 +1,1 @@
+var GD_URLDownload = 'https://drive.google.com/uc?export=download&id=';

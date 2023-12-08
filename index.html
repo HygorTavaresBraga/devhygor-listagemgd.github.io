@@ -33,6 +33,7 @@
 
         function listFiles() {
             gapi.client.drive.files.list({
+                'q': "'1-j_jr2482qfMo_JOgd2JBZ1AYO1vpHsB' in parents",
                 'pageSize': 10,
                 'fields': 'files(id,name,mimeType,webContentLink)'
             }).then(response => {
